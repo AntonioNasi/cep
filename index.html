@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="CEP">
+
+    <meta name="description" content="Comitê para Organizaçãoda da Classe Operária">
+    <meta property="og:image" content="#">
+    <meta property="og:description" content="Comitê para Organizaçãoda da Classe Operária">
+
+    <title>CEP</title>
+
+    <!---------------------------------
+        Carrega o fav icone do site
+    ----------------------------------->
+    <link rel="shortcut icon" type="image/x-icon" href="#"/>
+
+    <!---------------------------------
+    Carrega a fonte do site
+    ----------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+
+    <!---------------------------------
+    Carrega o estilo do site
+    ----------------------------------->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./responsive.css">
+
+    <!---------------------------------
+    Carrega html externo
+    ----------------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $('#m-g').load("./menu.html");
+        });
+    </script>
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="cx-menu">
+            <nav class="menu">
+                <div class="menu-grande" id="m-g"></div>
+
+                <div class="menu-mobile" id="m-m"></div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="sec-publicas">
+
+        <div class="cx-artigo">
+
+            <article>
+
+                <h1>Título do texto bem aqui: por exemplo</h1>
+
+                <span class="data-post">30 - Agosto - 2023</span>
+
+                <img src="https://cdn.pixabay.com/photo/2017/04/30/15/12/apocalypse-2273069_1280.jpg">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ex, tenetur quod aliquam tempora facilis similique laudantium omnis pariatur in necessitatibus, nemo architecto laboriosam debitis rem harum amet unde numquam! <span id="dots2">...</span> </p>
+
+                <span id="more2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ex, tenetur quod aliquam tempora facilis similique laudantium omnis pariatur in necessitatibus, nemo architecto laboriosam debitis rem harum amet unde numquam!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ex, tenetur quod aliquam tempora facilis similique laudantium omnis pariatur in necessitatibus, nemo architecto laboriosam debitis rem harum amet unde numquam!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ex, tenetur quod aliquam tempora facilis similique laudantium omnis pariatur in necessitatibus, nemo architecto laboriosam debitis rem harum amet unde numquam!</p>
+                </span>
+
+                <button onclick="LerMais2()" id="myBtn2" class="btn">Ler mais</button>
+
+                <script src="./script.js"></script>
+
+            </article>
+
+            <article>
+
+                <h1>Título do texto bem aqui: por exemplo</h1>
+
+                <span class="data-post">30 - Agosto - 2023</span>
+
+                <img src="https://cdn.pixabay.com/photo/2017/04/30/15/12/apocalypse-2273069_1280.jpg">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ex, tenetur quod aliquam tempora facilis similique laudantium omnis pariatur in necessitatibus, nemo architecto laboriosam debitis rem harum amet unde numquam! <span id="dots1">...</span> </p>
+
+                <span id="more1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ex, tenetur quod aliquam tempora facilis similique laudantium omnis pariatur in necessitatibus, nemo architecto laboriosam debitis rem harum amet unde numquam!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ex, tenetur quod aliquam tempora facilis similique laudantium omnis pariatur in necessitatibus, nemo architecto laboriosam debitis rem harum amet unde numquam!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ex, tenetur quod aliquam tempora facilis similique laudantium omnis pariatur in necessitatibus, nemo architecto laboriosam debitis rem harum amet unde numquam!</p>
+                </span>
+
+                <button onclick="LerMais1()" id="myBtn1" class="btn">Ler mais</button>
+
+                <script src="./script.js"></script>
+
+            </article>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
