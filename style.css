@@ -66,6 +66,27 @@ header .cx-menu .menu .menu-grande .itens-menu a:hover{
     transition: background-color .5s;
 }
 
+header .cx-menu .menu .menu-grande .itens-menu a img{
+    width: 10%;
+}
+
+header .nossas-redes{
+    max-width: 400px;
+    margin: 10px auto;
+    display: flex;
+    justify-content:center;
+}
+header .nossas-redes .img-redes{
+    width: 8%;
+    margin: 0px 10px;
+}
+header .nossas-redes .img-redes img{
+    width: 100%;
+    filter: brightness(0);
+}
+
+
+
 
 .sec-publicas .cx-artigo{
     width: 708px;
@@ -117,4 +138,81 @@ header .cx-menu .menu .menu-grande .itens-menu a:hover{
     background-color: #4F4F4F;
     color: #ffffff;
     padding: 10px 30px;
+}
+
+
+/* Configuração do Footer */
+footer{
+    background-color: #4F4F4F;
+    border: solid 1px transparent;
+}
+footer .cont-footer{
+    width: 93%;
+    margin: 30px auto;
+}
+footer .cont-footer .cx-footer .foot-logo{
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: #ffffff;
+    text-align: center;
+}
+footer .cont-footer .cx-footer .foot-descricao{
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* Formatação da página quem somos */
+.sec-publicas .cx-artigo .artigo-quem-somos{
+    width: 618px;
+    margin: 40px auto 0px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #4F4F4F;
+}
+.sec-publicas .cx-artigo .artigo-quem-somos h1{
+    font-size: 30px;
+}
+.sec-publicas .cx-artigo .artigo-quem-somos h2{
+    font-size: 22px;
+}
+.sec-publicas .cx-artigo .artigo-quem-somos ol li{
+    font-size: 18px;
+    margin: 15px 0px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.sec-publicas .cx-artigo .artigo-quem-somos p{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+
+/* Formatação da página quem somos */
+.sec-publicas .cx-artigo .contato{
+    width: 618px;
+    height: 100vh;
+    margin: 40px auto 0px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #4F4F4F;
+}
+.sec-publicas .cx-artigo .contato p{
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+/* Formatação da página quem somos */
+.sec-publicas .cx-artigo .mais-conteudo{
+    width: 618px;
+    height: 100vh;
+    margin: 40px auto 0px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #4F4F4F;
+}
+.sec-publicas .cx-artigo .mais-conteudo p{
+    line-height: 1.5;
+    text-align: center;
 }

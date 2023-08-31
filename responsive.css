@@ -1,0 +1,139 @@
+@media screen and (max-width:600px){
+    header .cx-menu .menu .menu-grande{
+        display: none;
+    }
+
+    header .cx-menu .menu .menu-mobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    header .logo-mobile{
+        margin: 10px 0px;
+    }
+    header .logo-mobile h1{
+        text-align: center;
+        letter-spacing: -1px;
+        font-weight: 900;
+    }
+    header .logo-mobile p{
+        text-align: center;
+    }
+
+    
+
+    .sec-publicas{
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .sec-publicas .cx-artigo{
+        width: auto;
+        padding: 0px 10px;
+    }
+
+    .sec-publicas .cx-artigo article{
+        width: 100%;
+    }
+
+    .sec-publicas .cx-artigo article h1{
+        font-size: 26px;
+    }
+
+    .sec-publicas .cx-artigo article img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* Quem somos */
+    .sec-publicas{
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .sec-publicas .cx-artigo{
+        width: auto;
+        padding: 0px 10px;
+    }
+
+    .sec-publicas .cx-artigo .artigo-quem-somos{
+        width: 100%;
+    }
+
+    .sec-publicas .cx-artigo .artigo-quem-somos h1{
+        font-size: 26px;
+    }
+
+    .sec-publicas .cx-artigo .artigo-quem-somos img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* Contato */
+    .sec-publicas{
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .sec-publicas .cx-artigo{
+        width: auto;
+        padding: 0px 10px;
+    }
+
+    .sec-publicas .cx-artigo .contato{
+        width: 100%;
+    }
+
+    .sec-publicas .cx-artigo .contato h1{
+        font-size: 26px;
+    }
+
+    .sec-publicas .cx-artigo .contato img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* Mais conteúdo */
+    .sec-publicas{
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .sec-publicas .cx-artigo{
+        width: auto;
+        padding: 0px 10px;
+    }
+
+    .sec-publicas .cx-artigo .mais-conteudo{
+        width: 100%;
+    }
+
+    .sec-publicas .cx-artigo .mais-conteudo h1{
+        font-size: 26px;
+    }
+
+    .sec-publicas .cx-artigo .mais-conteudo img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+
+
+@media screen and (min-width:601px){
+    header .cx-menu .menu .menu-mobile{
+        display: none;
+    }
+
+    header .logo-mobile{
+        display: none;
+    }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu-mobile</title>
+
+    <style>
+
+        .dropbtn {
+            background-color: transparent;
+            color: white;
+            padding: 16px;
+            font-size: 30px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropbtn:hover, .dropbtn:focus {
+            background-color: rgb(49, 48, 48);
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;      
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #4F4F4F;
+            min-width: 240px;
+            left: -90px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #ffffff;
+            font-weight: 300;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            border-bottom: 1px solid #ffffff;
+        }
+
+        .dropdown a:hover{
+            background-color: #474440;
+        }
+
+        .show{
+            display: block;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="dropdown">
+
+        <span onclick="myFunction()" class="dropbtn material-symbols-outlined">
+            menu
+        </span>
+
+        <div id="myDropdown" class="dropdown-content">
+
+            <a href="./index.html">Início</a>
+            <a href="./quemsomos.html">Quem somos</a>
+            <a href="./contato.html">Contato</a>
+            <a href="./mais-conteudo.html">Mais conteúdo</a>
+
+        </div>
+
+    </div>
+
+    <script>
+        
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
+
+</body>
+</html>

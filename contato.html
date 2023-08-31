@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="CEP">
+
+    <meta name="description" content="Comitê pela Emancipação Proletária.">
+    <meta property="og:image" content="#">
+    <meta property="og:description" content="Comitê pela Emancipação Proletária.">
+
+    <title>CEP</title>
+
+    <!---------------------------------
+        Carrega o fav icone do site
+    ----------------------------------->
+    <link rel="shortcut icon" type="image/x-icon" href="#"/>
+
+    <!---------------------------------
+    Carrega a fonte do site
+    ----------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+
+    <!---------------------------------
+    Carrega o estilo do site
+    ----------------------------------->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./responsive.css">
+
+    <!---------------------------------
+    Carrega html externo
+    ----------------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $('#m-g').load("./menu.html");
+            $('#foot').load("./foot.html");
+            $('#m-m').load("./menu-mobile.html");
+        });
+    </script>
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="cx-menu">
+            <nav class="menu">
+                <div class="menu-grande" id="m-g"></div>
+
+                <div class="menu-mobile" id="m-m"></div>
+            </nav>
+        </div>
+
+        <div class="nossas-redes">
+            <div class="img-redes">
+                <a href="#">
+                    <img src="./insta.png">
+                </a>
+            </div>
+            <div class="img-redes">
+                <a href="#">
+                    <img src="./face.png">
+                </a>
+            </div>
+            <div class="img-redes">
+                <a href="#">
+                    <img src="./twiter.png">
+                </a>
+            </div>
+        </div>
+
+        <div class="logo-mobile">
+            <h1>CEP</h1>
+            <p>Comitê pela Emancipação Proletária</p>
+        </div>
+        
+    </header>
+
+    <section class="sec-publicas">
+
+        <div class="cx-artigo">
+
+            <article class="contato">
+
+                <p>Ainda estamos trabalhando aqui...</p>
+                
+            </article>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="cont-footer" id="foot"></div>
+    </footer>
+
+</body>
+</html>
